@@ -6,7 +6,7 @@
   <link href="http://jo-shua-cn.github.io/atom.xml" rel="self"/>
   
   <link href="http://jo-shua-cn.github.io/"/>
-  <updated>2023-03-13T08:58:11.969Z</updated>
+  <updated>2023-03-14T08:04:25.748Z</updated>
   <id>http://jo-shua-cn.github.io/</id>
   
   <author>
@@ -17,31 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇文章</title>
-    <link href="http://jo-shua-cn.github.io/2023/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>http://jo-shua-cn.github.io/2023/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</id>
-    <published>2023-03-13T08:58:11.000Z</published>
-    <updated>2023-03-13T08:58:11.969Z</updated>
+    <title>CS50x第0节</title>
+    <link href="http://jo-shua-cn.github.io/2023/03/13/CS50x%E7%AC%AC0%E8%8A%82/"/>
+    <id>http://jo-shua-cn.github.io/2023/03/13/CS50x%E7%AC%AC0%E8%8A%82/</id>
+    <published>2023-03-13T11:54:27.000Z</published>
+    <updated>2023-03-14T08:04:25.748Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="CS50–Week-0-Scratch"><a href="#CS50–Week-0-Scratch" class="headerlink" title="CS50–Week 0 - Scratch"></a>CS50–Week 0 - Scratch</h1><h2 id="计算思维"><a href="#计算思维" class="headerlink" title="计算思维"></a>计算思维</h2><p>计算机本质上就是获取一些输入并创建一些输出从而解决问题。</p><p><img src="https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide38.png" alt="有输入和输出的黑盒子"></p><p>输入输出我们通过<strong>二进制</strong>数来表示内容：</p><p>比如说文本字符我们用<strong>ASCII</strong>码</p><p><img src="https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide93.png" alt="ASCII 映射"></p><p>表情我们采用的是<strong>Unicode</strong></p><p><img src="https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide103.png" alt="表情符号"></p><p>颜色我们采用的是<strong>RGB</strong>编码</p><p><img src="https://cs50.harvard.edu/x/2023/notes/0/cs50Week0Slide118.png" alt="红绿蓝盒子"></p><p>当然还有比如视频（图像序列），音乐（MIDI）都能有自己的编码和表现形式。</p><p>所以我们可以得知，计算机编程的本质就是一种抽象的过程。</p><h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>算法是CS中最重要的部分之一</p><p>比如我们同时搜索一个通讯录中的电话联系人：</p><p>假如我通过一页一页去找：那可能我得要遍历整个通讯录（用时间复杂度的说法，，我用了O(n)）个时间。</p><p>然而我如果用二分法找我则用了O( log 2 n)的时间，在大量的数据面前，性能提升是巨大的，这就是算法存在的意义。</p><h2 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h2><p>下面我写一段伪代码，关于我要查一本通讯录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">1 拿起我的书</span><br><span class="line">2 打开我的通讯录</span><br><span class="line">3 开始找</span><br><span class="line">4 如果 我要找的人在在这边</span><br><span class="line">5 打给他</span><br><span class="line">6 但是如果 我要找的人在这之前</span><br><span class="line">7 我就往前找</span><br><span class="line">8回到第三行</span><br><span class="line">9 但是如果 要找的人在这之后</span><br><span class="line">10 我就往后找</span><br><span class="line">11回到第三行</span><br><span class="line">12 否则</span><br><span class="line">13 离开</span><br></pre></td></tr></table></figure><p>大概就是这个意思</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总之这节课主要就是简介了编程的最初思想，本质上是节很轻松的课。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;CS50–Week-0-Scratch&quot;&gt;&lt;a href=&quot;#CS50–Week-0-Scratch&quot; class=&quot;headerlink&quot; title=&quot;CS50–Week 0 - Scratch&quot;&gt;&lt;/a&gt;CS50–Week 0 - Scratch&lt;/h1&gt;&lt;</summary>
+      
     
     
     
     
+    <category term="计算机导论" scheme="http://jo-shua-cn.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://jo-shua-cn.github.io/2023/03/13/hello-world/"/>
-    <id>http://jo-shua-cn.github.io/2023/03/13/hello-world/</id>
-    <published>2023-03-13T08:20:44.255Z</published>
-    <updated>2023-03-13T08:20:44.255Z</updated>
+    <title>第一篇文章</title>
+    <link href="http://jo-shua-cn.github.io/2023/03/13/%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D/"/>
+    <id>http://jo-shua-cn.github.io/2023/03/13/%E5%BC%80%E5%A7%8B%E4%B9%8B%E5%89%8D/</id>
+    <published>2023-03-13T08:58:11.000Z</published>
+    <updated>2023-03-13T11:53:32.869Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="明明要工作了却还要开展的学习计划-—by-Gemini星泽"><a href="#明明要工作了却还要开展的学习计划-—by-Gemini星泽" class="headerlink" title="明明要工作了却还要开展的学习计划 —by Gemini星泽"></a>明明要工作了却还要开展的学习计划 —by Gemini星泽</h1><h4 id="开始前我有亿点想说的"><a href="#开始前我有亿点想说的" class="headerlink" title="开始前我有亿点想说的"></a>开始前我有亿点想说的</h4><p>博主的大学四年，用一句迷茫与混乱不为过，糜烂的生活，混乱的节奏，让我的大学生活一团糟，这种混乱从我刚踏入大学就开始了，博主高考考的并不算好，我记得很清楚，我高考只考了352（当年是345的重本线），放眼整个一本学府没有几座我能企及的，不仅如此，我还什么都不懂，对于前途是一片迷茫，但我很喜欢数学，即使在我的母校启东中学，我的数学也是不落下风的，所以我选了CS，我选择了前往南京工业大学的中外合作办学1+2+1，本以为，能在国外混两年，能在国外找一份靠谱的工作，而接下来发生的事情，或许是命运对你我的一次巨大考验。。。</p><p>青春共几年，疫情占三年，我匆匆上完了大一上学期，那年的新年，我回到了家，却没能再次开学，我的整个大一下是停滞的，我本以为马上结束的疫情，只是我出国前的一次小插曲，没想到，整个疫情发展失控了，我们要出国的时候国外闹得可凶，尤其是我们要去的华盛顿州，是美国疫情最严重的区域，我父母很担心，我却在那段时间白白浪费了年华，我完全错过了大一下，大二上我们也是9月份开的学，也就是说整整九个月，我完全停滞了。。。大二到了学校我们班才发现我们的处境非常尴尬，国内的课程已经结束，没法去国外的结果是国外的课没法开始，我们就像白痴一样又挂了一个月（这时候已经十月份了！)，现在想想为何如此的浪费时间，真的后悔。最后在我们班的坚持下，我们退出了学院，加入了我们南京工业大学的计算机学院。</p><p>大二的下学期对我来说并不轻松，疫情有所好转，但封校依然，不仅如此我们学校取消了线下课，只让我们在宿舍里上网课，上学变成了名副其实的蹲大牢，线上课让我们的学期进度乱七八糟，整个学期的课程学的七零八落（对不起，我不是那么自律的人，没有办法在宿舍里认真上完每一节课），其实到此我对我们学校的安排已经彻底失望了。我打算自学，我打算另辟蹊径，好巧不巧，在大二的学期末尾我无意间认识到了一帮做游戏开发的朋友，</p><p>这段致谢我的好朋友顾轶文（可惜之后也没联系了），是他邀请我来参加lilith的开发者计划，那是我大学最勤奋的时候，我努力学习游戏引擎，学了c#，学了lua，学了unity，我是真的很想做一款游戏出来。终于我们俩不负期待，我们俩参加了lilith官方的比赛，我们获得了二等奖，还获得了两万元！我们庆了功，在学校里宣传，领到了南工大工作室资格，我们顺理成章的办起了工作室，招募了新生。。。说真的，那一刻，我真的觉得自己就是干这个的。</p><p>可是真的，我真的感觉命运在努力要改变什么似的，大三寒假的时候，年前我要参加lilith在上海的开发者大会，其实我知道，这次大会对我的未来生涯至关重要，我作为工作室组织者，作为竞赛获奖者，只要能有联系，我进入这家公司就非常容易，但是该死的疫情，就是不让一切按我想的来，上海大封控，整个上海！别说线下聚会了，我怕我晚跑两天，我得在上海陪我爸爸三个月，我就这样狼狈的跑回家了，从那以后，lilith的开发者计划流产，一切都结束了。我们也想过重新组织起南京的游戏开发自由结社，但是始终没有办法成功。</p><p>大三结束，我望着一地鸡毛，我真的迷茫了，如果说考研，6月份从零开始和那些大二就开始复习的人取竞争，我真的没有那个本事，整个暑假，我也没有去找实习，我就是在家呆着，迷茫着，腐烂着。我不知道什么时候是个头。大四了，我捡起了我父母的期望，我尝试起了父母的期待，我做起了嵌入式，学了linux，重学了单片机，说到底都是速成的，是为了应付考试，是为了做出实训的。但是说实话，我发现我在这方面很有天赋，我们实训的时候整个小组，我一个人能认认真真的从制版到焊接到烧录到运行，完完整整的完成的（可能是我运气好，一切电元件都正常，也许吧），我做出来那个小项目，我真的很满意，特别是当我展示这块板子的时候，我真的很自豪。</p><p>好吧然后就是秋招了，还在封，还在封，我大二大三凑热闹的线下招聘会，偏偏到了我们这届，就没办法举行了，为什么，为什么偏偏是我们，因为无意义的封控，我们学校还组织了游行，还有学生因此失去了生命。。另一方面，也许是我秋招没找对方向，我还是指望从游戏开发方向寻找工作，但是我错了，中国的游戏寒冬，网申一片红海，校招更是没有公司。再加上那次游行，我们学校匆匆在12月份就放了学，回到家中我又阳了一趟直到过年，对于未来，我真是一点危机意识都没有。但与此同时，我也开始做起了毕设，我们导师是允许我们做个有算法优化的管理系统的。但是当时我和我的爱人，和我的父母，都谈了一下，我下定决心要做一款物联网的毕业设计。从那以后我的生活似乎就在为嵌入式奔波。</p><p>好啦，写这篇文章的时候博主，正在春招的最后阶段，我面试了好几家公司，工资待遇一般般，我最爱的那家，我刚参加完笔试，对我冷冷淡淡的，但我知道，马上一切就会告一段落。这几年我都看淡了，life goes on，生活还是要继续的，我开始写博客，是因为，接下来在工作时要好好弥补大学的过错，重新开始从底层开始，重走大学路，</p><p>如果你能看到这篇文章，那你一定也是我很好的朋友，我希望我接下来的内容，能产出点能帮助到你的东西。</p><p>哦对了，终有一天，我会捡起游戏开发，我还要实现我自己的梦想！</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;明明要工作了却还要开展的学习计划-—by-Gemini星泽&quot;&gt;&lt;a href=&quot;#明明要工作了却还要开展的学习计划-—by-Gemini星泽&quot; class=&quot;headerlink&quot; title=&quot;明明要工作了却还要开展的学习计划 —by Gemini星泽&quot;&gt;&lt;/a</summary>
       
     
     
